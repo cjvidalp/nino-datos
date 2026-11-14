@@ -3,7 +3,20 @@
   "vistos": [
    "12 November 2026"
   ],
-  "revisado": "2026-11-14 05:27 UTC",
-  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  "revisado": "2026-11-14 05:31 UTC",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+  "fallas": 0
+ },
+ "ENFEN comunicados": {
+  "vistos": [],
+  "fallas": 1,
+  "ultima_falla": "2026-11-14 05:31 UTC",
+  "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+ },
+ "SENAMHI avisos": {
+  "vistos": [],
+  "fallas": 1,
+  "ultima_falla": "2026-11-14 05:31 UTC",
+  "error": "<urlopen error timed out>"
  }
 }
