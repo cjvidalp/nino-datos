@@ -22,8 +22,14 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Descargar y calcular
         run: python3 scripts/noaa_cpc_semanal.py
-      - name: Validar rangos y frescura
-        run: python3 scripts/validar.py cpc
+      - name: Validar (1 bloquea, 3 = salto que se publica con aviso)
+        id: val
+        run: |
+          set +e
+          python3 scripts/validar.py cpc
+          rc=$?
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          [ "$rc" -eq 1 ] && exit 1 || exit 0
       - name: Publicar
         run: |
           git config user.name "dataslut-bot"
@@ -41,3 +47,10 @@ jobs:
           gh issue list --state open --label FALLA-DATOS --search "cpc" --json number | grep -q number \
             || gh issue create --label FALLA-DATOS --title "FALLA cpc: $(date -u +%F)" \
                --body "El workflow ${{ github.workflow }} falló. No se publicó. Detalle: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      - name: Aviso de salto brusco (se publicó; revisar)
+        if: steps.val.outputs.rc == '3'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          { echo "Cambio brusco frente a la versión anterior. Se publicó igual: puede ser real."; echo; cat /tmp/alertas.txt; echo; echo "Corrida: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; echo "El agente compara con la fuente; si es un error, propone revertir por PR."; } > /tmp/cuerpo.md
+          gh issue create --label REVISAR --title "REVISAR salto cpc: $(date -u +%F)" --body-file /tmp/cuerpo.md
