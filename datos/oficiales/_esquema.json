@@ -1,0 +1,143 @@
+{
+ "prob_historial": [
+  "comunicado",
+  "fecha",
+  "prob_extraordinario_oct"
+ ],
+ "regiones": [
+  "departamento",
+  "dist_emergencia_mar2026",
+  "dist_inund_ma",
+  "dist_mm_ma",
+  "dist_seq_ma",
+  "emergencias_mar2026",
+  "fallecidos_2017",
+  "fallecidos_2026",
+  "id",
+  "lluvia_pronostico",
+  "pob_inund_ma",
+  "pob_mm_ma",
+  "pob_seq_ma",
+  "zona"
+ ],
+ "eventos_recientes": [
+  "departamento",
+  "fecha",
+  "fuente",
+  "hecho"
+ ],
+ "prevision_perdidas": [
+  "alcance",
+  "estimacion",
+  "fecha",
+  "fuente",
+  "grupo",
+  "id",
+  "max_m",
+  "min_m",
+  "moneda",
+  "pbi_pct",
+  "pp_crec"
+ ],
+ "gasto_publico": [
+  "ejecutado_m",
+  "fecha",
+  "fuente",
+  "id",
+  "monto_m",
+  "nota",
+  "partida"
+ ],
+ "indicadores_costa": [
+  "id",
+  "indicador",
+  "periodo",
+  "unidad",
+  "valor"
+ ],
+ "economia": [
+  "agro",
+  "ipc",
+  "ipc_alimentos",
+  "manufactura",
+  "mes",
+  "pbi",
+  "pesca"
+ ],
+ "exposicion": [
+  "distritos",
+  "elemento",
+  "id",
+  "valor"
+ ],
+ "avisos_senamhi": [
+  "departamentos",
+  "deps_fuente",
+  "emision",
+  "fin",
+  "horas",
+  "inicio",
+  "nivel",
+  "nivel_n",
+  "numero",
+  "tipo",
+  "titulo"
+ ],
+ "icen": [
+  "categoria",
+  "icen",
+  "mes",
+  "tipo"
+ ],
+ "atsm_semanal": [
+  "atsm_nino12",
+  "semana"
+ ],
+ "danos_temporada": [
+  "id",
+  "indicador",
+  "valor"
+ ],
+ "rios": [
+  "anomalia_pct",
+  "departamento",
+  "rio"
+ ],
+ "probabilidades": [
+  "etiqueta",
+  "mes",
+  "nino12_extraordinario",
+  "nino12_fuerte",
+  "nino34_muy_fuerte"
+ ],
+ "historico": [
+  "calidad",
+  "damnificados",
+  "evento",
+  "fallecidos",
+  "nota",
+  "nota_dinero",
+  "perdidas_pbi_pct",
+  "perdidas_soles_m",
+  "perdidas_usd_m",
+  "tipo",
+  "viv_destruidas"
+ ],
+ "ninos_fuertes": [
+  "anom",
+  "evento",
+  "fecha",
+  "idx",
+  "mes"
+ ],
+ "pobreza_expuesta": [
+  "calidad",
+  "detalle",
+  "fecha",
+  "fuente",
+  "grupo",
+  "hogares",
+  "id",
+  "valor"
+ ]
+}

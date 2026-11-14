@@ -1,0 +1,62 @@
+[
+ {
+  "fecha": "2026-11-12",
+  "departamento": "Nacional",
+  "hecho": "NOAA CPC mantiene la advertencia de El Niño: sigue fortaleciéndose y es probable un evento fuerte a muy fuerte hasta enero-marzo de 2027. Próxima discusión: 10 dic.",
+  "fuente": "NOAA CPC, ENSO Diagnostic Discussion (12 nov 2026)"
+ },
+ {
+  "fecha": "2026-11-06",
+  "departamento": "Tumbes",
+  "hecho": "Balance de las lluvias desde el 1 nov: 324 damnificados, 808 afectados y 109 viviendas inhabitables. Sin fallecidos reportados. El 3 nov el COEN había informado 2 viviendas destruidas y 10 colegios afectados.",
+  "fuente": "COEN (6 nov 2026, 02:03) vía Infobae y La República; COEN vía Andina (3 nov 2026). Sin balance consolidado nacional de INDECI."
+ },
+ {
+  "fecha": "2026-11-05",
+  "departamento": "Lima",
+  "hecho": "Lluvias de unas 12 horas inundan calles en Villa El Salvador, Villa María del Triunfo y San Juan de Miraflores; un bus quedó varado en una grieta anegada.",
+  "fuente": "Infobae y América Noticias (5 nov 2026). Dato de prensa, sin cifra oficial."
+ },
+ {
+  "fecha": "2026-11-03",
+  "departamento": "Nacional",
+  "hecho": "Estado de emergencia por peligro inminente ante lluvias intensas por El Niño 2026-27, por 60 días, en distritos de 24 departamentos y el Callao.",
+  "fuente": "D.S. N.º 149-2026-PCM, El Peruano (3 nov 2026)"
+ },
+ {
+  "fecha": "2026-11-01",
+  "departamento": "Tumbes",
+  "hecho": "Lluvia extrema la noche del 1 nov: Puerto Perú (Aguas Verdes) inundado y aniegos en Zarumilla y Tumbes. El río Tumbes llegó a 1 021 m³/s en la estación El Tigre (5 a. m. del 2 nov). Unas 700 personas afectadas y 150 viviendas inundadas en Zarumilla.",
+  "fuente": "COEN y SENAMHI vía Infobae (2 nov 2026); afectados: ministro M. Vinelli vía RPP; viviendas en Zarumilla: ministro M. Vinelli vía Andina (2 nov 2026)."
+ },
+ {
+  "fecha": "2026-10-30",
+  "departamento": "Nacional",
+  "hecho": "ENFEN emite el Comunicado Oficial N.° 19-2026: mantiene la alerta de El Niño costero. Niño 1+2 extraordinario y Niño 3.4 muy fuerte hasta febrero de 2027, con descenso hasta junio de 2027. Lluvias por encima de lo normal en la costa norte y central; inferiores a lo normal en la región del Titicaca. Próximo comunicado: 13 nov.",
+  "fuente": "Comunicado Oficial ENFEN N.° 19-2026 (PDF oficial, enfen.imarpe.gob.pe, 30 oct 2026)"
+ },
+ {
+  "fecha": "2026-10-27",
+  "departamento": "Tumbes",
+  "hecho": "Estación El Salto: 99,3 mm de lluvia en 24 horas (102 mm según SENAMHI vía Andina).",
+  "fuente": "SENAMHI vía Infobae y Andina (27 oct 2026)"
+ },
+ {
+  "fecha": "2026-10-26",
+  "departamento": "Tumbes",
+  "hecho": "55 viviendas, 5 instituciones educativas y 3 establecimientos de salud afectados en el distrito de Tumbes.",
+  "fuente": "INDECI vía Andina (26 oct 2026)"
+ },
+ {
+  "fecha": "2026-10-20",
+  "departamento": "Piura",
+  "hecho": "Aniegos en Piura, Veintiséis de Octubre, Castilla y Chulucanas; agua de hasta 30 cm en el mercado de Chulucanas; 3 colegios afectados.",
+  "fuente": "INDECI, Reporte complementario 14589 (20 oct 2026)"
+ },
+ {
+  "fecha": "2026-10-10",
+  "departamento": "Tumbes",
+  "hecho": "Récord de temperatura máxima en El Salto: 38,3 °C.",
+  "fuente": "Informe Técnico ENFEN N.° 18 (13 oct 2026)"
+ }
+]

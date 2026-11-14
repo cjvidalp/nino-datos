@@ -1,0 +1,50 @@
+[
+ {
+  "id": "inundacion",
+  "elemento": "Población en riesgo muy alto por inundación",
+  "valor": 7951322,
+  "distritos": 209
+ },
+ {
+  "id": "movimientos_masa",
+  "elemento": "Población en riesgo muy alto por huaicos y deslizamientos",
+  "valor": 1383000,
+  "distritos": 185
+ },
+ {
+  "id": "sequia",
+  "elemento": "Población en riesgo muy alto por sequía",
+  "valor": 622301,
+  "distritos": 76
+ },
+ {
+  "id": "viviendas_inund",
+  "elemento": "Viviendas en distritos de riesgo muy alto por inundación",
+  "valor": 2497594,
+  "distritos": 209
+ },
+ {
+  "id": "colegios_inund",
+  "elemento": "Instituciones educativas en esos distritos",
+  "valor": 17213,
+  "distritos": 209
+ },
+ {
+  "id": "eess_inund",
+  "elemento": "Establecimientos de salud en esos distritos",
+  "valor": 4378,
+  "distritos": 209
+ },
+ {
+  "id": "vias_inund",
+  "elemento": "Kilómetros de vías en esos distritos",
+  "valor": 8250,
+  "distritos": 209
+ },
+ {
+  "id": "poblacion_base",
+  "elemento": "Población base usada por CENEPRED (INEI, Censos 2017)",
+  "valor": 31237385,
+  "distritos": 1891
+ }
+]

@@ -1,0 +1,58 @@
+[
+ {
+  "id": "tmax_costa",
+  "indicador": "Anomalía de temperatura máxima, litoral (promedio)",
+  "valor": 4.9,
+  "unidad": "°C",
+  "periodo": "oct 2026"
+ },
+ {
+  "id": "tmin_costa",
+  "indicador": "Anomalía de temperatura mínima, litoral (promedio)",
+  "valor": 5.5,
+  "unidad": "°C",
+  "periodo": "oct 2026"
+ },
+ {
+  "id": "tmax_centro",
+  "indicador": "Anomalía de temperatura máxima, costa centro",
+  "valor": 6.9,
+  "unidad": "°C",
+  "periodo": "oct 2026"
+ },
+ {
+  "id": "atsm_paita",
+  "indicador": "Anomalía máxima del mar en estaciones del litoral norte",
+  "valor": 10,
+  "unidad": "°C",
+  "periodo": "oct 2026"
+ },
+ {
+  "id": "nivel_mar",
+  "indicador": "Anomalía del nivel del mar, del ecuador a 12°S (franja 60 mn), superior a",
+  "valor": 40,
+  "unidad": "cm",
+  "periodo": "oct 2026"
+ },
+ {
+  "id": "ola_calor",
+  "indicador": "Franja de 150 mn entre 4°S y 18,5°S en ola de calor marina",
+  "valor": 100,
+  "unidad": "%",
+  "periodo": "25 oct 2026"
+ },
+ {
+  "id": "embalses",
+  "indicador": "Capacidad hidráulica nacional almacenada",
+  "valor": 53.3,
+  "unidad": "%",
+  "periodo": "28 oct 2026"
+ },
+ {
+  "id": "record_tumbes",
+  "indicador": "Récord de temperatura máxima en El Salto (Tumbes)",
+  "valor": 38.3,
+  "unidad": "°C",
+  "periodo": "10 oct 2026"
+ }
+]

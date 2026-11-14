@@ -1,0 +1,74 @@
+[
+ {
+  "id": "estrategia_2026",
+  "partida": "Estrategia nacional El Niño 2026-27",
+  "monto_m": 4200,
+  "ejecutado_m": 1350,
+  "fecha": "2026-07-09",
+  "fuente": "Poder Ejecutivo vía Canal N",
+  "nota": "Más de S/ 4 200 M; 44 % ejecutado al 6 jul 2026. Incluye S/ 3 065 M del Programa Presupuestal 0068. Se anunciaron además US$ 2 000 M en fondos de contingencia, sin conciliar con este total."
+ },
+ {
+  "id": "pp0068",
+  "partida": "Programa Presupuestal 0068 (dentro de la estrategia)",
+  "monto_m": 3065,
+  "ejecutado_m": null,
+  "fecha": "2026-07-09",
+  "fuente": "Poder Ejecutivo vía Canal N",
+  "nota": "Reducción de vulnerabilidad y atención de emergencias."
+ },
+ {
+  "id": "plan_lluvias",
+  "partida": "Plan Multisectorial ante Lluvias 2025-2027",
+  "monto_m": 798,
+  "ejecutado_m": null,
+  "fecha": "2026-07-09",
+  "fuente": "Poder Ejecutivo vía Canal N",
+  "nota": "66 % de avance a fines de mayo 2026; S/ 527 M para defensas ribereñas."
+ },
+ {
+  "id": "presupuesto_2027",
+  "partida": "Proyecto de Presupuesto 2027 para El Niño",
+  "monto_m": 2489,
+  "ejecutado_m": null,
+  "fecha": "2026-09-03",
+  "fuente": "MEF (ministro Elmer Cuba) vía Infobae",
+  "nota": "Nacional S/ 2 023 M, regional S/ 246 M, local S/ 219 M."
+ },
+ {
+  "id": "mtc_sep",
+  "partida": "Transferencia al MTC (puentes y carreteras)",
+  "monto_m": 205,
+  "ejecutado_m": null,
+  "fecha": "2026-09-17",
+  "fuente": "Infobae",
+  "nota": "Intervenciones ante riesgo de colapso de puentes y vías."
+ },
+ {
+  "id": "transf_oct",
+  "partida": "Transferencia del 19 de octubre",
+  "monto_m": 191.95,
+  "ejecutado_m": null,
+  "fecha": "2026-10-19",
+  "fuente": "Infobae",
+  "nota": "S/ 191 953 506 para acciones ante El Niño."
+ },
+ {
+  "id": "paquete_bonos",
+  "partida": "Paquete 2027: bonos a hogares vulnerables",
+  "monto_m": 2500,
+  "ejecutado_m": null,
+  "fecha": "2026-10-22",
+  "fuente": "Presidencia de la República (Keiko Fujimori) y MEF (ministro Elmer Cuba), anuncio del 22 oct 2026 (gob.pe), vía El Comercio",
+  "nota": "Anunciado, sin norma aún. Parte del paquete de S/ 18 000 M para 2027 (El Niño, alza del petróleo y tasas). Pagos de 3 a 5 meses que podrían empezar en diciembre; incluye pensionistas de la ONP; monto por hogar sin definir."
+ },
+ {
+  "id": "paquete_mant",
+  "partida": "Paquete 2027: mantenimiento de infraestructura",
+  "monto_m": 2000,
+  "ejecutado_m": null,
+  "fecha": "2026-10-22",
+  "fuente": "Presidencia de la República (Keiko Fujimori) y MEF (ministro Elmer Cuba), anuncio del 22 oct 2026 (gob.pe), vía El Comercio",
+  "nota": "Anunciado, sin norma aún. Colegios, centros de salud, comisarías y carreteras. El resto del paquete (S/ 13 000 M en colegios y obras paralizadas, S/ 500 M para combustibles) no se muestra porque no es específico de El Niño."
+ }
+]

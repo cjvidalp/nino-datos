@@ -1,0 +1,67 @@
+[
+ {
+  "id": "fallecidos",
+  "indicador": "Fallecidos",
+  "valor": 74
+ },
+ {
+  "id": "desaparecidos",
+  "indicador": "Desaparecidos",
+  "valor": 5
+ },
+ {
+  "id": "damnificados",
+  "indicador": "Damnificados",
+  "valor": 27555
+ },
+ {
+  "id": "afectados",
+  "indicador": "Afectados",
+  "valor": 196483
+ },
+ {
+  "id": "viv_destruidas",
+  "indicador": "Viviendas destruidas",
+  "valor": 1257
+ },
+ {
+  "id": "viv_inhabitables",
+  "indicador": "Viviendas inhabitables",
+  "valor": 10437
+ },
+ {
+  "id": "viv_afectadas",
+  "indicador": "Viviendas afectadas",
+  "valor": 92980
+ },
+ {
+  "id": "aulas_destruidas",
+  "indicador": "Aulas destruidas",
+  "valor": 52
+ },
+ {
+  "id": "eess_afectados",
+  "indicador": "Establecimientos de salud afectados",
+  "valor": 170
+ },
+ {
+  "id": "puentes_destruidos",
+  "indicador": "Puentes vehiculares destruidos",
+  "valor": 46
+ },
+ {
+  "id": "ha_perdidas",
+  "indicador": "Hectáreas de cultivo perdidas",
+  "valor": 2695
+ },
+ {
+  "id": "distritos_emergencia",
+  "indicador": "Distritos en emergencia",
+  "valor": 1177
+ },
+ {
+  "id": "distritos_total",
+  "indicador": "Distritos del país",
+  "valor": 1892
+ }
+]

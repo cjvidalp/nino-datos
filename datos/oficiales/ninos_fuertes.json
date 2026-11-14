@@ -1,0 +1,702 @@
+[
+ {
+  "evento": "1982-83",
+  "idx": 0,
+  "mes": "ene año 0",
+  "fecha": "1982-01",
+  "anom": -0.24
+ },
+ {
+  "evento": "1982-83",
+  "idx": 1,
+  "mes": "feb año 0",
+  "fecha": "1982-02",
+  "anom": -0.72
+ },
+ {
+  "evento": "1982-83",
+  "idx": 2,
+  "mes": "mar año 0",
+  "fecha": "1982-03",
+  "anom": -1.38
+ },
+ {
+  "evento": "1982-83",
+  "idx": 3,
+  "mes": "abr año 0",
+  "fecha": "1982-04",
+  "anom": -1.16
+ },
+ {
+  "evento": "1982-83",
+  "idx": 4,
+  "mes": "may año 0",
+  "fecha": "1982-05",
+  "anom": -0.62
+ },
+ {
+  "evento": "1982-83",
+  "idx": 5,
+  "mes": "jun año 0",
+  "fecha": "1982-06",
+  "anom": -0.29
+ },
+ {
+  "evento": "1982-83",
+  "idx": 6,
+  "mes": "jul año 0",
+  "fecha": "1982-07",
+  "anom": 0.24
+ },
+ {
+  "evento": "1982-83",
+  "idx": 7,
+  "mes": "ago año 0",
+  "fecha": "1982-08",
+  "anom": 0.85
+ },
+ {
+  "evento": "1982-83",
+  "idx": 8,
+  "mes": "set año 0",
+  "fecha": "1982-09",
+  "anom": 1.33
+ },
+ {
+  "evento": "1982-83",
+  "idx": 9,
+  "mes": "oct año 0",
+  "fecha": "1982-10",
+  "anom": 1.8
+ },
+ {
+  "evento": "1982-83",
+  "idx": 10,
+  "mes": "nov año 0",
+  "fecha": "1982-11",
+  "anom": 2.78
+ },
+ {
+  "evento": "1982-83",
+  "idx": 11,
+  "mes": "dic año 0",
+  "fecha": "1982-12",
+  "anom": 2.89
+ },
+ {
+  "evento": "1982-83",
+  "idx": 12,
+  "mes": "ene año 1",
+  "fecha": "1983-01",
+  "anom": 2.3
+ },
+ {
+  "evento": "1982-83",
+  "idx": 13,
+  "mes": "feb año 1",
+  "fecha": "1983-02",
+  "anom": 1.55
+ },
+ {
+  "evento": "1982-83",
+  "idx": 14,
+  "mes": "mar año 1",
+  "fecha": "1983-03",
+  "anom": 1.73
+ },
+ {
+  "evento": "1982-83",
+  "idx": 15,
+  "mes": "abr año 1",
+  "fecha": "1983-04",
+  "anom": 2.37
+ },
+ {
+  "evento": "1982-83",
+  "idx": 16,
+  "mes": "may año 1",
+  "fecha": "1983-05",
+  "anom": 3.26
+ },
+ {
+  "evento": "1982-83",
+  "idx": 17,
+  "mes": "jun año 1",
+  "fecha": "1983-06",
+  "anom": 4.03
+ },
+ {
+  "evento": "1997-98",
+  "idx": 0,
+  "mes": "ene año 0",
+  "fecha": "1997-01",
+  "anom": -0.93
+ },
+ {
+  "evento": "1997-98",
+  "idx": 1,
+  "mes": "feb año 0",
+  "fecha": "1997-02",
+  "anom": -0.45
+ },
+ {
+  "evento": "1997-98",
+  "idx": 2,
+  "mes": "mar año 0",
+  "fecha": "1997-03",
+  "anom": 0.23
+ },
+ {
+  "evento": "1997-98",
+  "idx": 3,
+  "mes": "abr año 0",
+  "fecha": "1997-04",
+  "anom": 0.8
+ },
+ {
+  "evento": "1997-98",
+  "idx": 4,
+  "mes": "may año 0",
+  "fecha": "1997-05",
+  "anom": 1.83
+ },
+ {
+  "evento": "1997-98",
+  "idx": 5,
+  "mes": "jun año 0",
+  "fecha": "1997-06",
+  "anom": 2.79
+ },
+ {
+  "evento": "1997-98",
+  "idx": 6,
+  "mes": "jul año 0",
+  "fecha": "1997-07",
+  "anom": 3.59
+ },
+ {
+  "evento": "1997-98",
+  "idx": 7,
+  "mes": "ago año 0",
+  "fecha": "1997-08",
+  "anom": 3.71
+ },
+ {
+  "evento": "1997-98",
+  "idx": 8,
+  "mes": "set año 0",
+  "fecha": "1997-09",
+  "anom": 3.63
+ },
+ {
+  "evento": "1997-98",
+  "idx": 9,
+  "mes": "oct año 0",
+  "fecha": "1997-10",
+  "anom": 3.57
+ },
+ {
+  "evento": "1997-98",
+  "idx": 10,
+  "mes": "nov año 0",
+  "fecha": "1997-11",
+  "anom": 3.73
+ },
+ {
+  "evento": "1997-98",
+  "idx": 11,
+  "mes": "dic año 0",
+  "fecha": "1997-12",
+  "anom": 3.73
+ },
+ {
+  "evento": "1997-98",
+  "idx": 12,
+  "mes": "ene año 1",
+  "fecha": "1998-01",
+  "anom": 2.88
+ },
+ {
+  "evento": "1997-98",
+  "idx": 13,
+  "mes": "feb año 1",
+  "fecha": "1998-02",
+  "anom": 1.91
+ },
+ {
+  "evento": "1997-98",
+  "idx": 14,
+  "mes": "mar año 1",
+  "fecha": "1998-03",
+  "anom": 1.91
+ },
+ {
+  "evento": "1997-98",
+  "idx": 15,
+  "mes": "abr año 1",
+  "fecha": "1998-04",
+  "anom": 2.34
+ },
+ {
+  "evento": "1997-98",
+  "idx": 16,
+  "mes": "may año 1",
+  "fecha": "1998-05",
+  "anom": 2.84
+ },
+ {
+  "evento": "1997-98",
+  "idx": 17,
+  "mes": "jun año 1",
+  "fecha": "1998-06",
+  "anom": 1.92
+ },
+ {
+  "evento": "2015-16",
+  "idx": 0,
+  "mes": "ene año 0",
+  "fecha": "2015-01",
+  "anom": 0.06
+ },
+ {
+  "evento": "2015-16",
+  "idx": 1,
+  "mes": "feb año 0",
+  "fecha": "2015-02",
+  "anom": -0.57
+ },
+ {
+  "evento": "2015-16",
+  "idx": 2,
+  "mes": "mar año 0",
+  "fecha": "2015-03",
+  "anom": 0.13
+ },
+ {
+  "evento": "2015-16",
+  "idx": 3,
+  "mes": "abr año 0",
+  "fecha": "2015-04",
+  "anom": 0.96
+ },
+ {
+  "evento": "2015-16",
+  "idx": 4,
+  "mes": "may año 0",
+  "fecha": "2015-05",
+  "anom": 1.34
+ },
+ {
+  "evento": "2015-16",
+  "idx": 5,
+  "mes": "jun año 0",
+  "fecha": "2015-06",
+  "anom": 1.91
+ },
+ {
+  "evento": "2015-16",
+  "idx": 6,
+  "mes": "jul año 0",
+  "fecha": "2015-07",
+  "anom": 2.48
+ },
+ {
+  "evento": "2015-16",
+  "idx": 7,
+  "mes": "ago año 0",
+  "fecha": "2015-08",
+  "anom": 1.8
+ },
+ {
+  "evento": "2015-16",
+  "idx": 8,
+  "mes": "set año 0",
+  "fecha": "2015-09",
+  "anom": 2.26
+ },
+ {
+  "evento": "2015-16",
+  "idx": 9,
+  "mes": "oct año 0",
+  "fecha": "2015-10",
+  "anom": 2.2
+ },
+ {
+  "evento": "2015-16",
+  "idx": 10,
+  "mes": "nov año 0",
+  "fecha": "2015-11",
+  "anom": 2.04
+ },
+ {
+  "evento": "2015-16",
+  "idx": 11,
+  "mes": "dic año 0",
+  "fecha": "2015-12",
+  "anom": 2.1
+ },
+ {
+  "evento": "2015-16",
+  "idx": 12,
+  "mes": "ene año 1",
+  "fecha": "2016-01",
+  "anom": 1.21
+ },
+ {
+  "evento": "2015-16",
+  "idx": 13,
+  "mes": "feb año 1",
+  "fecha": "2016-02",
+  "anom": 1.01
+ },
+ {
+  "evento": "2015-16",
+  "idx": 14,
+  "mes": "mar año 1",
+  "fecha": "2016-03",
+  "anom": 1.11
+ },
+ {
+  "evento": "2015-16",
+  "idx": 15,
+  "mes": "abr año 1",
+  "fecha": "2016-04",
+  "anom": 0.45
+ },
+ {
+  "evento": "2015-16",
+  "idx": 16,
+  "mes": "may año 1",
+  "fecha": "2016-05",
+  "anom": 0.44
+ },
+ {
+  "evento": "2015-16",
+  "idx": 17,
+  "mes": "jun año 1",
+  "fecha": "2016-06",
+  "anom": 0.37
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 0,
+  "mes": "ene año 0",
+  "fecha": "2016-01",
+  "anom": 1.21
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 1,
+  "mes": "feb año 0",
+  "fecha": "2016-02",
+  "anom": 1.01
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 2,
+  "mes": "mar año 0",
+  "fecha": "2016-03",
+  "anom": 1.11
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 3,
+  "mes": "abr año 0",
+  "fecha": "2016-04",
+  "anom": 0.45
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 4,
+  "mes": "may año 0",
+  "fecha": "2016-05",
+  "anom": 0.44
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 5,
+  "mes": "jun año 0",
+  "fecha": "2016-06",
+  "anom": 0.37
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 6,
+  "mes": "jul año 0",
+  "fecha": "2016-07",
+  "anom": 0.39
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 7,
+  "mes": "ago año 0",
+  "fecha": "2016-08",
+  "anom": 0.4
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 8,
+  "mes": "set año 0",
+  "fecha": "2016-09",
+  "anom": 0.59
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 9,
+  "mes": "oct año 0",
+  "fecha": "2016-10",
+  "anom": 0.48
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 10,
+  "mes": "nov año 0",
+  "fecha": "2016-11",
+  "anom": 0.26
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 11,
+  "mes": "dic año 0",
+  "fecha": "2016-12",
+  "anom": 0.42
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 12,
+  "mes": "ene año 1",
+  "fecha": "2017-01",
+  "anom": 1.07
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 13,
+  "mes": "feb año 1",
+  "fecha": "2017-02",
+  "anom": 1.14
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 14,
+  "mes": "mar año 1",
+  "fecha": "2017-03",
+  "anom": 1.83
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 15,
+  "mes": "abr año 1",
+  "fecha": "2017-04",
+  "anom": 0.77
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 16,
+  "mes": "may año 1",
+  "fecha": "2017-05",
+  "anom": 0.35
+ },
+ {
+  "evento": "2017 costero",
+  "idx": 17,
+  "mes": "jun año 1",
+  "fecha": "2017-06",
+  "anom": -0.03
+ },
+ {
+  "evento": "2023-24",
+  "idx": 0,
+  "mes": "ene año 0",
+  "fecha": "2023-01",
+  "anom": -0.24
+ },
+ {
+  "evento": "2023-24",
+  "idx": 1,
+  "mes": "feb año 0",
+  "fecha": "2023-02",
+  "anom": 0.71
+ },
+ {
+  "evento": "2023-24",
+  "idx": 2,
+  "mes": "mar año 0",
+  "fecha": "2023-03",
+  "anom": 1.52
+ },
+ {
+  "evento": "2023-24",
+  "idx": 3,
+  "mes": "abr año 0",
+  "fecha": "2023-04",
+  "anom": 2.45
+ },
+ {
+  "evento": "2023-24",
+  "idx": 4,
+  "mes": "may año 0",
+  "fecha": "2023-05",
+  "anom": 2.02
+ },
+ {
+  "evento": "2023-24",
+  "idx": 5,
+  "mes": "jun año 0",
+  "fecha": "2023-06",
+  "anom": 2.63
+ },
+ {
+  "evento": "2023-24",
+  "idx": 6,
+  "mes": "jul año 0",
+  "fecha": "2023-07",
+  "anom": 3.21
+ },
+ {
+  "evento": "2023-24",
+  "idx": 7,
+  "mes": "ago año 0",
+  "fecha": "2023-08",
+  "anom": 3.3
+ },
+ {
+  "evento": "2023-24",
+  "idx": 8,
+  "mes": "set año 0",
+  "fecha": "2023-09",
+  "anom": 2.82
+ },
+ {
+  "evento": "2023-24",
+  "idx": 9,
+  "mes": "oct año 0",
+  "fecha": "2023-10",
+  "anom": 2.46
+ },
+ {
+  "evento": "2023-24",
+  "idx": 10,
+  "mes": "nov año 0",
+  "fecha": "2023-11",
+  "anom": 2.22
+ },
+ {
+  "evento": "2023-24",
+  "idx": 11,
+  "mes": "dic año 0",
+  "fecha": "2023-12",
+  "anom": 1.41
+ },
+ {
+  "evento": "2023-24",
+  "idx": 12,
+  "mes": "ene año 1",
+  "fecha": "2024-01",
+  "anom": 0.83
+ },
+ {
+  "evento": "2023-24",
+  "idx": 13,
+  "mes": "feb año 1",
+  "fecha": "2024-02",
+  "anom": 0.92
+ },
+ {
+  "evento": "2023-24",
+  "idx": 14,
+  "mes": "mar año 1",
+  "fecha": "2024-03",
+  "anom": 0.28
+ },
+ {
+  "evento": "2023-24",
+  "idx": 15,
+  "mes": "abr año 1",
+  "fecha": "2024-04",
+  "anom": 0.08
+ },
+ {
+  "evento": "2023-24",
+  "idx": 16,
+  "mes": "may año 1",
+  "fecha": "2024-05",
+  "anom": -0.68
+ },
+ {
+  "evento": "2023-24",
+  "idx": 17,
+  "mes": "jun año 1",
+  "fecha": "2024-06",
+  "anom": -0.65
+ },
+ {
+  "evento": "2026-27",
+  "idx": 0,
+  "mes": "ene año 0",
+  "fecha": "2026-01",
+  "anom": -0.29
+ },
+ {
+  "evento": "2026-27",
+  "idx": 1,
+  "mes": "feb año 0",
+  "fecha": "2026-02",
+  "anom": 0.92
+ },
+ {
+  "evento": "2026-27",
+  "idx": 2,
+  "mes": "mar año 0",
+  "fecha": "2026-03",
+  "anom": 1.29
+ },
+ {
+  "evento": "2026-27",
+  "idx": 3,
+  "mes": "abr año 0",
+  "fecha": "2026-04",
+  "anom": 1.52
+ },
+ {
+  "evento": "2026-27",
+  "idx": 4,
+  "mes": "may año 0",
+  "fecha": "2026-05",
+  "anom": 1.81
+ },
+ {
+  "evento": "2026-27",
+  "idx": 5,
+  "mes": "jun año 0",
+  "fecha": "2026-06",
+  "anom": 2.83
+ },
+ {
+  "evento": "2026-27",
+  "idx": 6,
+  "mes": "jul año 0",
+  "fecha": "2026-07",
+  "anom": 3.56
+ },
+ {
+  "evento": "2026-27",
+  "idx": 7,
+  "mes": "ago año 0",
+  "fecha": "2026-08",
+  "anom": 4.08
+ },
+ {
+  "evento": "2026-27",
+  "idx": 8,
+  "mes": "set año 0",
+  "fecha": "2026-09",
+  "anom": 4.69
+ },
+ {
+  "evento": "2026-27",
+  "idx": 9,
+  "mes": "oct año 0",
+  "fecha": "2026-10",
+  "anom": 5.25
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "evento": "1982-83",
+  "tipo": "El Niño extraordinario",
+  "fallecidos": 512,
+  "damnificados": 587120,
+  "viv_destruidas": null,
+  "calidad": "Secundaria",
+  "nota": "Fallecidos: prensa citada por el Congreso. Damnificados: 587 120 personas sin vivienda según Andina; otra fuente reporta 1 267 720, que Andina llama afectados.",
+  "perdidas_usd_m": 3283,
+  "perdidas_pbi_pct": 11.6,
+  "nota_dinero": "US$ 3 283 M, 11,6 % del PBI (Andina, sin fuente primaria nombrada).",
+  "perdidas_soles_m": null
+ },
+ {
+  "evento": "1997-98",
+  "tipo": "El Niño extraordinario",
+  "fallecidos": 366,
+  "damnificados": 502461,
+  "viv_destruidas": 42000,
+  "calidad": "Secundaria",
+  "nota": "Otras fuentes reportan 374 fallecidos. Viviendas: dato oficial citado por agencias de prensa.",
+  "perdidas_usd_m": 3500,
+  "perdidas_pbi_pct": 6.2,
+  "nota_dinero": "US$ 3 500 M, 6,2 % del PBI (Andina). Otras fuentes: US$ 1 200 a 1 800 M.",
+  "perdidas_soles_m": null
+ },
+ {
+  "evento": "2017",
+  "tipo": "El Niño costero",
+  "fallecidos": 162,
+  "damnificados": 231874,
+  "viv_destruidas": 66093,
+  "calidad": "Oficial",
+  "nota": "Fallecidos y viviendas: INDECI ago 2017 (vía RPP). Damnificados: SINPAD al 17 may 2017 (vía OPS).",
+  "perdidas_usd_m": 3000,
+  "perdidas_pbi_pct": 1.6,
+  "nota_dinero": "US$ 3 000 M, 1,6 % del PBI (BCRP vía Andina).",
+  "perdidas_soles_m": null
+ },
+ {
+  "evento": "2023",
+  "tipo": "Ciclón Yaku + El Niño costero",
+  "fallecidos": 65,
+  "damnificados": 9423,
+  "viv_destruidas": 43037,
+  "calidad": "Parcial",
+  "nota": "Fallecidos y damnificados al 21 mar 2023 (corte parcial). Viviendas: compendio INDECI 2024, año completo.",
+  "perdidas_usd_m": null,
+  "perdidas_soles_m": 2600,
+  "nota_dinero": "S/ 2 600 M, estimación preliminar del MEF (27 mar 2023), solo Yaku; sin convertir a dólares.",
+  "perdidas_pbi_pct": null
+ },
+ {
+  "evento": "2025-26",
+  "tipo": "Temporada de lluvias (sierra)",
+  "fallecidos": 74,
+  "damnificados": 27555,
+  "viv_destruidas": 1257,
+  "calidad": "Oficial",
+  "nota": "INDECI al 20 mar 2026. Lluvias estacionales; El Niño costero recién iniciaba.",
+  "perdidas_usd_m": null,
+  "nota_dinero": "Sin estimación oficial publicada.",
+  "perdidas_pbi_pct": null,
+  "perdidas_soles_m": null
+ }
+]

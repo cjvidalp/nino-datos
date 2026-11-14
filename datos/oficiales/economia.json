@@ -1,0 +1,119 @@
+[
+ {
+  "mes": "2025-09",
+  "pbi": 4.4,
+  "agro": 15.1,
+  "pesca": 15.1,
+  "manufactura": 4,
+  "ipc": 1.4,
+  "ipc_alimentos": 1.4
+ },
+ {
+  "mes": "2025-10",
+  "pbi": 4.2,
+  "agro": 2.8,
+  "pesca": 29.7,
+  "manufactura": 5.8,
+  "ipc": 1.4,
+  "ipc_alimentos": 1.5
+ },
+ {
+  "mes": "2025-11",
+  "pbi": 1.6,
+  "agro": -0.5,
+  "pesca": -16.3,
+  "manufactura": -2.3,
+  "ipc": 1.4,
+  "ipc_alimentos": 1.8
+ },
+ {
+  "mes": "2025-12",
+  "pbi": 4.1,
+  "agro": 4.6,
+  "pesca": 0.9,
+  "manufactura": 5.3,
+  "ipc": 1.5,
+  "ipc_alimentos": 2
+ },
+ {
+  "mes": "2026-01",
+  "pbi": 3.8,
+  "agro": 4.6,
+  "pesca": -8.2,
+  "manufactura": -0.9,
+  "ipc": 1.7,
+  "ipc_alimentos": 2.3
+ },
+ {
+  "mes": "2026-02",
+  "pbi": 3.7,
+  "agro": 0.3,
+  "pesca": 0.2,
+  "manufactura": 2.7,
+  "ipc": 2.2,
+  "ipc_alimentos": 3.3
+ },
+ {
+  "mes": "2026-03",
+  "pbi": 3.3,
+  "agro": -0.2,
+  "pesca": -9.9,
+  "manufactura": 3.5,
+  "ipc": 3.8,
+  "ipc_alimentos": 4.4
+ },
+ {
+  "mes": "2026-04",
+  "pbi": 3.8,
+  "agro": 0.2,
+  "pesca": 0.1,
+  "manufactura": 1.6,
+  "ipc": 4,
+  "ipc_alimentos": 3.8
+ },
+ {
+  "mes": "2026-05",
+  "pbi": 2.2,
+  "agro": 2.2,
+  "pesca": -72.9,
+  "manufactura": -9.9,
+  "ipc": 3.9,
+  "ipc_alimentos": 3.2
+ },
+ {
+  "mes": "2026-06",
+  "pbi": 1.8,
+  "agro": -8.1,
+  "pesca": -51.9,
+  "manufactura": -6.2,
+  "ipc": 4,
+  "ipc_alimentos": 3.5
+ },
+ {
+  "mes": "2026-07",
+  "pbi": 3.6,
+  "agro": -1.2,
+  "pesca": -27.4,
+  "manufactura": -1.8,
+  "ipc": 4.1,
+  "ipc_alimentos": 3.6
+ },
+ {
+  "mes": "2026-08",
+  "pbi": 3.2,
+  "agro": 3.4,
+  "pesca": -17.3,
+  "manufactura": 4.2,
+  "ipc": 4.4,
+  "ipc_alimentos": 3.9
+ },
+ {
+  "mes": "2026-09",
+  "ipc": 4.5,
+  "ipc_alimentos": 4,
+  "pbi": null,
+  "agro": null,
+  "pesca": null,
+  "manufactura": null
+ }
+]

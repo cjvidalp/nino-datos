@@ -1,0 +1,32 @@
+[
+ {
+  "id": "expuesta",
+  "grupo": "Personas expuestas",
+  "valor": 7600000,
+  "hogares": 2400000,
+  "detalle": "En riesgo muy alto por lluvias según CENEPRED, más unos 210 000 pequeños agricultores del sur y 77 000 pescadores artesanales con sus hogares.",
+  "fuente": "Apoyo Consultoría, \"Ante el fenómeno de El Niño, el reto es que los bonos lleguen a tiempo\", El Comercio (31 oct 2026), con datos de CENEPRED, INEI (ENAHO 2025) e IMARPE",
+  "fecha": "2026-10-31",
+  "calidad": "Estimación de terceros"
+ },
+ {
+  "id": "pobres_vulnerables",
+  "grupo": "Pobres o vulnerables",
+  "valor": 5100000,
+  "hogares": 1400000,
+  "detalle": "Pobres más hogares en riesgo de caer en pobreza ante un golpe así (clasificación del INEI). Siete de cada diez expuestos.",
+  "fuente": "Apoyo Consultoría, \"Ante el fenómeno de El Niño, el reto es que los bonos lleguen a tiempo\", El Comercio (31 oct 2026), con datos de CENEPRED, INEI (ENAHO 2025) e IMARPE",
+  "fecha": "2026-10-31",
+  "calidad": "Estimación de terceros"
+ },
+ {
+  "id": "pobres",
+  "grupo": "Pobres",
+  "valor": 2700000,
+  "hogares": 730000,
+  "detalle": "Hogares pobres en las zonas expuestas.",
+  "fuente": "Apoyo Consultoría, \"Ante el fenómeno de El Niño, el reto es que los bonos lleguen a tiempo\", El Comercio (31 oct 2026), con datos de CENEPRED, INEI (ENAHO 2025) e IMARPE",
+  "fecha": "2026-10-31",
+  "calidad": "Estimación de terceros"
+ }
+]

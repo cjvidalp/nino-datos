@@ -1,0 +1,100 @@
+[
+ {
+  "id": "credicorp_total",
+  "grupo": "Proyección",
+  "estimacion": "Credicorp Capital: pérdida 2026-27",
+  "moneda": "S/",
+  "min_m": 16000,
+  "max_m": 16000,
+  "pbi_pct": 1.3,
+  "fecha": "2026-07-08",
+  "fuente": "Credicorp Capital vía RPP",
+  "alcance": "Economía total. 0,5 pp del PBI en 2026 (S/ 6 000 M) y 0,8 % en 2027 (S/ 10 000 M). Hecha cuando se esperaba un Niño fuerte, no extraordinario."
+ },
+ {
+  "id": "agro_dpa",
+  "grupo": "Proyección",
+  "estimacion": "Defensoría del Productor Agrario: agro",
+  "moneda": "US$",
+  "min_m": 3576,
+  "max_m": 3576,
+  "pbi_pct": null,
+  "fecha": "2026-07-07",
+  "fuente": "Defensoría del Productor Agrario vía Altavoz",
+  "alcance": "Solo agricultura y ganadería. 1,7 M ha afectadas y 432 380 empleos agrícolas en riesgo. Método no publicado."
+ },
+ {
+  "id": "valderrama_fuerte",
+  "grupo": "Proyección",
+  "estimacion": "Escenario fuerte (P. Valderrama)",
+  "moneda": "US$",
+  "min_m": 15000,
+  "max_m": 25000,
+  "pbi_pct": null,
+  "fecha": "2026-09-16",
+  "fuente": "Patricio Valderrama (evento ABRESA) vía Infobae",
+  "alcance": "Daños directos e indirectos. Estimación de un especialista, método no publicado."
+ },
+ {
+  "id": "valderrama_extra",
+  "grupo": "Proyección",
+  "estimacion": "Escenario extraordinario (P. Valderrama)",
+  "moneda": "US$",
+  "min_m": 45000,
+  "max_m": null,
+  "pbi_pct": null,
+  "fecha": "2026-09-16",
+  "fuente": "Patricio Valderrama (evento ABRESA) vía Infobae",
+  "alcance": "Más de US$ 45 000 M. Es el escenario que hoy el ENFEN ve más probable. Método no publicado."
+ },
+ {
+  "id": "ref_2017",
+  "grupo": "Referencia histórica",
+  "estimacion": "El Niño costero 2017 (real)",
+  "moneda": "US$",
+  "min_m": 3000,
+  "max_m": 3000,
+  "pbi_pct": 1.6,
+  "fecha": "2017",
+  "fuente": "BCRP vía Andina",
+  "alcance": "Pérdida estimada del evento 2017."
+ },
+ {
+  "id": "ref_1998",
+  "grupo": "Referencia histórica",
+  "estimacion": "El Niño 1997-98 (real)",
+  "moneda": "US$",
+  "min_m": 3500,
+  "max_m": 3500,
+  "pbi_pct": 6.2,
+  "fecha": "1998",
+  "fuente": "Andina",
+  "alcance": "Pérdida estimada del evento 1997-98. Otras fuentes: US$ 1 200 a 1 800 M."
+ },
+ {
+  "id": "bcrp_2026",
+  "grupo": "Estimación oficial",
+  "estimacion": "BCRP: efecto en el crecimiento 2026",
+  "moneda": "pp",
+  "min_m": null,
+  "max_m": null,
+  "pbi_pct": null,
+  "pp_crec": -0.9,
+  "fecha": "2026-09-18",
+  "fuente": "BCRP, Reporte de Inflación de setiembre 2026, vía Gestión y Caretas (18 set 2026)",
+  "alcance": "Puntos porcentuales que El Niño resta al crecimiento del PBI en 2026, con un Niño de magnitud extraordinaria. Subió desde 0,7 en el reporte de junio. No es una pérdida en soles."
+ },
+ {
+  "id": "bcrp_2027",
+  "grupo": "Estimación oficial",
+  "estimacion": "BCRP: efecto en el crecimiento 2027",
+  "moneda": "pp",
+  "min_m": null,
+  "max_m": null,
+  "pbi_pct": null,
+  "pp_crec": -1.1,
+  "fecha": "2026-09-18",
+  "fuente": "BCRP, Reporte de Inflación de setiembre 2026, vía Gestión y Caretas (18 set 2026)",
+  "alcance": "Puntos porcentuales que El Niño resta al crecimiento del PBI en 2027, con un Niño de magnitud extraordinaria. Subió desde 0,9 en el reporte de junio. No es una pérdida en soles."
+ }
+]

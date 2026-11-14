@@ -1,0 +1,90 @@
+{
+ "version": 1,
+ "nota": "Rutas relativas a https://cjvidalp.github.io/nino-datos/. La página 238 lee este manifiesto.",
+ "datasets": {
+  "prob_historial": {
+   "ruta": "datos/oficiales/prob_historial.json",
+   "modo": "revision"
+  },
+  "mapa_departamentos": {
+   "ruta": "datos/departamentos.json",
+   "modo": "automatico"
+  },
+  "regiones": {
+   "ruta": "datos/oficiales/regiones.json",
+   "modo": "revision"
+  },
+  "eventos_recientes": {
+   "ruta": "datos/oficiales/eventos_recientes.json",
+   "modo": "revision"
+  },
+  "prevision_perdidas": {
+   "ruta": "datos/oficiales/prevision_perdidas.json",
+   "modo": "revision"
+  },
+  "gasto_publico": {
+   "ruta": "datos/oficiales/gasto_publico.json",
+   "modo": "revision"
+  },
+  "noaa_semanal": {
+   "ruta": "datos/noaa_semanal.json",
+   "modo": "automatico"
+  },
+  "indicadores_costa": {
+   "ruta": "datos/oficiales/indicadores_costa.json",
+   "modo": "revision"
+  },
+  "economia": {
+   "ruta": "datos/oficiales/economia.json",
+   "modo": "revision"
+  },
+  "exposicion": {
+   "ruta": "datos/oficiales/exposicion.json",
+   "modo": "revision"
+  },
+  "avisos_senamhi": {
+   "ruta": "datos/oficiales/avisos_senamhi.json",
+   "modo": "revision"
+  },
+  "icen": {
+   "ruta": "datos/oficiales/icen.json",
+   "modo": "revision"
+  },
+  "atsm_semanal": {
+   "ruta": "datos/oficiales/atsm_semanal.json",
+   "modo": "revision"
+  },
+  "danos_temporada": {
+   "ruta": "datos/oficiales/danos_temporada.json",
+   "modo": "revision"
+  },
+  "rios": {
+   "ruta": "datos/oficiales/rios.json",
+   "modo": "revision"
+  },
+  "probabilidades": {
+   "ruta": "datos/oficiales/probabilidades.json",
+   "modo": "revision"
+  },
+  "historico": {
+   "ruta": "datos/oficiales/historico.json",
+   "modo": "revision"
+  },
+  "ninos_fuertes": {
+   "ruta": "datos/oficiales/ninos_fuertes.json",
+   "modo": "revision"
+  },
+  "mar_anomalia": {
+   "ruta": "datos/mar_anomalia.json",
+   "modo": "automatico"
+  },
+  "lluvia_pronostico": {
+   "ruta": "datos/lluvia_pronostico.json",
+   "modo": "automatico"
+  },
+  "pobreza_expuesta": {
+   "ruta": "datos/oficiales/pobreza_expuesta.json",
+   "modo": "revision"
+  }
+ }
+}

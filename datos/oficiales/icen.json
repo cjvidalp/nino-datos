@@ -1,0 +1,80 @@
+[
+ {
+  "mes": "2025-09",
+  "icen": -0.22,
+  "categoria": "Neutra",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2025-10",
+  "icen": -0.42,
+  "categoria": "Neutra",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2025-11",
+  "icen": -0.5,
+  "categoria": "Neutra",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2025-12",
+  "icen": -0.51,
+  "categoria": "Neutra",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-01",
+  "icen": -0.06,
+  "categoria": "Neutra",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-02",
+  "icen": 0.42,
+  "categoria": "Neutra",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-03",
+  "icen": 0.96,
+  "categoria": "Cálida Débil",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-04",
+  "icen": 1.34,
+  "categoria": "Cálida Moderada",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-05",
+  "icen": 1.98,
+  "categoria": "Cálida Moderada",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-06",
+  "icen": 2.66,
+  "categoria": "Cálida Fuerte",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-07",
+  "icen": 3.38,
+  "categoria": "Cálida Fuerte",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-08",
+  "icen": 3.98,
+  "categoria": "Cálida Extraordinaria",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-09",
+  "icen": 4.58,
+  "categoria": "Cálida Extraordinaria",
+  "tipo": "temporal"
+ }
+]
