@@ -1,0 +1,4 @@
+eccodes
+netCDF4
+numpy
+shapely

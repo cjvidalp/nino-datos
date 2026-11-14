@@ -1,0 +1,32 @@
+name: Vigía de fuentes (REVISAR)
+on:
+  schedule:
+    - cron: "15 12,17,22 * * *"   # 7:15, 12:15 y 17:15 Lima
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: datos
+  cancel-in-progress: false
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Buscar novedades
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/vigia_fuentes.py
+      - name: Guardar estado
+        run: |
+          git config user.name "dataslut-bot"
+          git config user.email "dataslut-bot@users.noreply.github.com"
+          git add datos/vigia_estado.json
+          git diff --cached --quiet && exit 0
+          git commit -m "vigía: estado $(date -u +'%F %H:%M')"
+          git pull --rebase && git push

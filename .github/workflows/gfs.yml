@@ -1,0 +1,43 @@
+name: GFS lluvia 7 días
+on:
+  schedule:
+    - cron: "20 4,16 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: datos
+  cancel-in-progress: false
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Descargar y calcular
+        run: python3 scripts/gfs_lluvia.py
+      - name: Validar rangos y frescura
+        run: python3 scripts/validar.py lluvia
+      - name: Publicar
+        run: |
+          git config user.name "dataslut-bot"
+          git config user.email "dataslut-bot@users.noreply.github.com"
+          git add datos/
+          git diff --cached --quiet && exit 0
+          git commit -m "datos: lluvia $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase && git push
+      - name: Aviso si falla (no se publica nada)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create FALLA-DATOS --force
+          gh issue list --state open --label FALLA-DATOS --search "lluvia" --json number | grep -q number \
+            || gh issue create --label FALLA-DATOS --title "FALLA lluvia: $(date -u +%F)" \
+               --body "El workflow ${{ github.workflow }} falló. No se publicó. Detalle: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
