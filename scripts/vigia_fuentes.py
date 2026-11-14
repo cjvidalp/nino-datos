@@ -15,13 +15,11 @@ UA = {"User-Agent": "Mozilla/5.0 (dataslut-vigia; +https://cjvidal.com)"}
 # PENDIENTE primera prueba: confirmar que cada página responde desde GitHub Actions
 # y que el patrón captura lo esperado. SENAMHI carga la tabla por JavaScript en el
 # navegador; si el HTML no trae los números, hay que apuntar al endpoint de datos.
+# Desde los servidores de GitHub (prueba del 14 nov 2026):
+# - ENFEN (enfen.imarpe.gob.pe) no resuelve por DNS, ni con 3 reintentos. Lo vigila el
+#   agente programado de Claude (18:17 Lima), desde donde sí responde.
+# - SENAMHI no responde (timeout); tampoco desde la nube de Claude. Sigue manual.
 FUENTES = {
-    "ENFEN comunicados": dict(
-        url="https://enfen.imarpe.gob.pe/",  # la portada lista las descargas recientes
-        patron=r"/download/((?:comunicado-oficial-enfen|informe-tecnico-enfen)[a-z0-9-]+)/"),
-    "SENAMHI avisos": dict(
-        url="https://www.senamhi.gob.pe/?p=aviso-meteorologico",
-        patron=r"N[°º]\s*(\d{3})"),
     "NOAA CPC discusión ENSO": dict(
         url="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
         patron=r"(?s)issued by.{0,2000}?(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})"),

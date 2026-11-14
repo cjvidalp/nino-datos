@@ -20,7 +20,7 @@ Base: `https://cjvidalp.github.io/nino-datos/datos/`
 
 ## Cómo funciona
 - Cada workflow descarga, calcula y valida rangos (`scripts/validar.py`). Si algo falla, **no publica** y abre un issue `FALLA-DATOS`.
-- El vigía (`scripts/vigia_fuentes.py`) no publica nada. Abre issues `REVISAR` cuando ENFEN, SENAMHI o NOAA publican algo nuevo, y `FUENTE-CAIDA` si una fuente no responde.
+- El vigía (`scripts/vigia_fuentes.py`) no publica nada. Abre issues `REVISAR` cuando NOAA publica una discusión ENSO nueva. ENFEN lo vigila el agente de Claude (desde GitHub su dominio no resuelve). SENAMHI no responde desde la nube y sigue manual.
 - Lo que viene de fuentes oficiales entra por PR a `datos/oficiales/`, con visto bueno de CJ. Cada PR se valida contra `_esquema.json` para no romper la página.
 
 Los formatos son idénticos a los datasets de la página publicada (comprobado el 13 nov 2026: NOAA 16/16 semanas, OISST 384/384 filas, GFS 24/25 departamentos).
