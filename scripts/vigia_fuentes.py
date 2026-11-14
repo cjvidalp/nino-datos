@@ -17,14 +17,14 @@ UA = {"User-Agent": "Mozilla/5.0 (dataslut-vigia; +https://cjvidal.com)"}
 # navegador; si el HTML no trae los números, hay que apuntar al endpoint de datos.
 FUENTES = {
     "ENFEN comunicados": dict(
-        url="https://enfen.imarpe.gob.pe/comunicados-oficiales/",
-        patron=r"[Cc]omunicado[^<]{0,40}?N\.?\s*[°º]\s*(\d{1,2}-\d{4})"),
+        url="https://enfen.imarpe.gob.pe/",  # la portada lista las descargas recientes
+        patron=r"/download/((?:comunicado-oficial-enfen|informe-tecnico-enfen)[a-z0-9-]+)/"),
     "SENAMHI avisos": dict(
         url="https://www.senamhi.gob.pe/?p=aviso-meteorologico",
         patron=r"N[°º]\s*(\d{3})"),
     "NOAA CPC discusión ENSO": dict(
         url="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
-        patron=r"issued by[^\n]{0,80}?(\d{1,2} \w+ \d{4})"),
+        patron=r"(?s)issued by.{0,2000}?(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})"),
 }
 
 
