@@ -12,48 +12,40 @@
   host.dataset.listo = '1';
   var M = function (v) { return v >= 1e6 ? (v / 1e6).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + ' M' : Math.round(v / 1e3).toLocaleString('es-ES') + ' mil'; };
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
-  var pal = [['#fde68a', '#f59e0b', '#b45309'], ['#fdba74', '#f97316', '#c2410c'], ['#fbcfe8', '#ec4899', '#9d174d']];
-  var cx = 210, cy = 200, R = 150, vmax = filas[0].valor;
+  var pal = ['#8b7fd6', '#6d4fc7', '#4a2a8f'];
+  var cx = 210, cy = 190, R = 165, vmax = filas[0].valor;
   var radios = filas.map(function (f) { return R * Math.sqrt(f.valor / vmax); });
-  var s = '';
-  /* estrellas: posiciones fijas, decorativas */
-  var semilla = 7, azar = function () { semilla = (semilla * 9301 + 49297) % 233280; return semilla / 233280; };
-  for (var i = 0; i < 70; i++) {
-    var x = azar() * 420, y = azar() * 400, r = azar() < .85 ? .7 : 1.4;
-    if (Math.hypot(x - cx, y - cy) < R + 6) continue;
-    s += '<circle class="nmo-st" cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="' + r + '" style="animation-delay:' + (azar() * 4).toFixed(2) + 's"/>';
-  }
-  var defs = '<filter id="nmo-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>';
+  var defs = '', s = '';
   filas.forEach(function (f, k) {
-    var p = pal[Math.min(k, 2)];
-    defs += '<radialGradient id="nmo-g' + k + '" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="' + p[0] + '"/><stop offset=".55" stop-color="' + p[1] + '"/><stop offset="1" stop-color="' + p[2] + '"/></radialGradient>';
+    var c = pal[Math.min(k, 2)];
+    /* esfera de vidrio: cuerpo casi transparente, borde más denso, luz arriba a la izquierda */
+    defs += '<radialGradient id="nmo-g' + k + '" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="' + c + '" stop-opacity=".05"/><stop offset=".72" stop-color="' + c + '" stop-opacity=".12"/><stop offset=".93" stop-color="' + c + '" stop-opacity=".30"/><stop offset="1" stop-color="' + c + '" stop-opacity=".45"/></radialGradient>';
+    defs += '<radialGradient id="nmo-h' + k + '" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>';
   });
-  /* órbita decorativa con satélite */
-  var ex = R + 42, ey = R * .42;
-  var elip = 'M' + (cx - ex) + ' ' + cy + ' a' + ex + ' ' + ey + ' 0 1 0 ' + (2 * ex) + ' 0 a' + ex + ' ' + ey + ' 0 1 0 ' + (-2 * ex) + ' 0';
-  s += '<g class="nmo-orb" transform="rotate(-18 ' + cx + ' ' + cy + ')"><path d="' + elip + '"/><circle class="nmo-sat" r="4.5"><animateMotion dur="16s" repeatCount="indefinite" path="' + elip + '"/></circle></g>';
-  s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + (R + 4) + '" fill="#f59e0b" opacity=".35" filter="url(#nmo-glow)"/>';
+  defs += '<radialGradient id="nmo-sombra" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#1b1f24" stop-opacity=".22"/><stop offset="1" stop-color="#1b1f24" stop-opacity="0"/></radialGradient>';
+  s += '<ellipse cx="' + cx + '" cy="' + (cy + R + 4) + '" rx="' + (R * .9) + '" ry="' + (R * .09) + '" fill="url(#nmo-sombra)"/>';
   filas.forEach(function (f, k) {
-    var r = radios[k];
-    s += '<circle class="nmo-capa" cx="' + cx + '" cy="' + cy + '" r="' + r.toFixed(1) + '" fill="url(#nmo-g' + k + ')" style="animation-delay:' + (k * .15) + 's"/>';
+    var c = pal[Math.min(k, 2)];
+    s += '<circle class="nmo-capa" cx="' + cx + '" cy="' + (cy + R - radios[k]).toFixed(1) + '" r="' + radios[k].toFixed(1) + '" fill="url(#nmo-g' + k + ')" stroke="' + c + '" stroke-opacity=".5"/>';
+    var r = radios[k], yk = cy + R - r;
+    s += '<ellipse cx="' + (cx - r * .38).toFixed(1) + '" cy="' + (yk - r * .52).toFixed(1) + '" rx="' + (r * .26).toFixed(1) + '" ry="' + (r * .13).toFixed(1) + '" transform="rotate(-28 ' + (cx - r * .38).toFixed(1) + ' ' + (yk - r * .52).toFixed(1) + ')" fill="url(#nmo-h' + k + ')"/>';
   });
-  /* rótulos en arco para las capas externas, número al centro para el núcleo */
+  /* rótulos en arco: cada capa externa en su franja superior; el núcleo, al centro */
   filas.forEach(function (f, k) {
-    var ultimo = k === filas.length - 1;
-    if (ultimo) return;
-    var rm = (radios[k] + radios[k + 1]) / 2 - 4, a0 = 200 * Math.PI / 180, a1 = 340 * Math.PI / 180;
-    var d = 'M' + (cx + rm * Math.cos(a0)).toFixed(1) + ' ' + (cy + rm * Math.sin(a0)).toFixed(1) + ' A' + rm.toFixed(1) + ' ' + rm.toFixed(1) + ' 0 0 1 ' + (cx + rm * Math.cos(a1)).toFixed(1) + ' ' + (cy + rm * Math.sin(a1)).toFixed(1);
+    if (k === filas.length - 1) return;
+    var cyk = cy + R - radios[k], rm = radios[k] - 14, a0 = 205 * Math.PI / 180, a1 = 335 * Math.PI / 180;
+    var d = 'M' + (cx + rm * Math.cos(a0)).toFixed(1) + ' ' + (cyk + rm * Math.sin(a0)).toFixed(1) + ' A' + rm.toFixed(1) + ' ' + rm.toFixed(1) + ' 0 0 1 ' + (cx + rm * Math.cos(a1)).toFixed(1) + ' ' + (cyk + rm * Math.sin(a1)).toFixed(1);
     defs += '<path id="nmo-p' + k + '" d="' + d + '"/>';
-    s += '<text class="nmo-arc"><textPath href="#nmo-p' + k + '" startOffset="50%" text-anchor="middle">' + esc(f.grupo.toUpperCase()) + ' · ' + M(f.valor) + '</textPath></text>';
+    s += '<text class="nmo-arc"><textPath href="#nmo-p' + k + '" startOffset="50%" text-anchor="middle">' + esc(f.grupo.toUpperCase()) + '  <tspan>' + M(f.valor) + '</tspan></textPath></text>';
   });
-  var nucleo = filas[filas.length - 1];
-  s += '<text class="nmo-num" x="' + cx + '" y="' + (cy + 6) + '" text-anchor="middle">' + M(nucleo.valor) + '</text>';
-  s += '<text class="nmo-sub" x="' + cx + '" y="' + (cy + 30) + '" text-anchor="middle">' + esc(nucleo.grupo.toUpperCase()) + '</text>';
+  var nucleo = filas[filas.length - 1], rc = radios[radios.length - 1], cyc = cy + R - rc;
+  s += '<text class="nmo-num" x="' + cx + '" y="' + (cyc + 8) + '" text-anchor="middle">' + M(nucleo.valor) + '</text>';
+  s += '<text class="nmo-sub" x="' + cx + '" y="' + (cyc + 30) + '" text-anchor="middle">' + esc(nucleo.grupo.toUpperCase()) + '</text>';
   var etiqueta = filas.map(function (f) { return f.grupo + ': ' + M(f.valor) + ' personas'; }).join('; ');
   var f0 = filas[0];
   var fecha = f0.fecha ? new Date(f0.fecha + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
   host.innerHTML =
     '<div class="nmo-top"><span class="nmo-tag">' + esc(f0.calidad || 'Estimación') + '</span><span class="nmo-kicker">Capas de población expuesta</span></div>' +
-    '<svg viewBox="0 0 420 400" role="img" aria-label="' + esc('Población expuesta por nivel de pobreza. ' + etiqueta) + '"><defs>' + defs + '</defs>' + s + '</svg>' +
+    '<svg viewBox="0 0 420 380" role="img" aria-label="' + esc('Población expuesta por nivel de pobreza. ' + etiqueta) + '"><defs>' + defs + '</defs>' + s + '</svg>' +
     '<p class="nmo-pie">Cada capa contiene a la siguiente. El área es proporcional a las personas. Fuente: ' + esc(String(f0.fuente || '').split(',')[0]) + (fecha ? ', ' + fecha : '') + '.</p>';
 })();
