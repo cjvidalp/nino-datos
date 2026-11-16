@@ -18,3 +18,14 @@
 #orbita-pobreza .nmo-num { font: 400 40px var(--font-anthropic-serif); fill: var(--color-fg); }
 #orbita-pobreza .nmo-sub { font: 600 10.5px var(--font-anthropic-sans); letter-spacing: .2em; fill: var(--color-fg-muted); }
 #orbita-pobreza .nmo-pie { margin: .3rem 0 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-align: center; line-height: 1.4; }
+#orbita-pobreza .nmo-3d { position: relative; margin: .5rem 0; }
+#orbita-pobreza .nmo-lienzo canvas { display: block; cursor: grab; touch-action: pan-y; }
+#orbita-pobreza .nmo-r { position: absolute; transform: translateY(-50%); padding-left: .45rem; border-left: 2px solid var(--c); line-height: 1.15; white-space: nowrap; }
+#orbita-pobreza .nmo-r i { position: absolute; top: 50%; height: 0; border-top: 1px solid var(--c); opacity: .6; }
+#orbita-pobreza .nmo-r i::before { content: ""; position: absolute; left: -3px; top: -3.5px; width: 6px; height: 6px; border-radius: 50%; background: var(--c); }
+#orbita-pobreza .nmo-r b { display: block; font: 400 1.35rem var(--font-anthropic-serif); color: var(--color-fg); }
+#orbita-pobreza .nmo-r span { font: 600 .66rem var(--font-anthropic-sans); letter-spacing: .12em; text-transform: uppercase; color: var(--color-fg-muted); }
+#orbita-pobreza .nmo-angosto .nmo-rotulos { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; }
+#orbita-pobreza .nmo-angosto .nmo-r { position: static; transform: none; white-space: normal; }
+#orbita-pobreza .nmo-angosto .nmo-r b { font-size: 1.1rem; }
+#orbita-pobreza .nmo-angosto .nmo-r span { font-size: .58rem; letter-spacing: .06em; }
