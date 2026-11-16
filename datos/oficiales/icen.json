@@ -73,7 +73,13 @@
  },
  {
   "mes": "2026-09",
-  "icen": 4.58,
+  "icen": 4.98,
+  "categoria": "Cálida Extraordinaria",
+  "tipo": "observado"
+ },
+ {
+  "mes": "2026-10",
+  "icen": 4.69,
   "categoria": "Cálida Extraordinaria",
   "tipo": "temporal"
  }

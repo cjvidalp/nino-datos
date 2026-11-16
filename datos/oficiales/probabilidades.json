@@ -2,64 +2,64 @@
  {
   "mes": "2026-11",
   "etiqueta": "Nov",
-  "nino12_extraordinario": 98,
-  "nino12_fuerte": 2,
-  "nino34_muy_fuerte": 97
+  "nino12_extraordinario": 100,
+  "nino12_fuerte": 0,
+  "nino34_muy_fuerte": 96
  },
  {
   "mes": "2026-12",
   "etiqueta": "Dic",
-  "nino12_extraordinario": 90,
-  "nino12_fuerte": 10,
-  "nino34_muy_fuerte": 94
+  "nino12_extraordinario": 95,
+  "nino12_fuerte": 5,
+  "nino34_muy_fuerte": 92
  },
  {
   "mes": "2027-01",
   "etiqueta": "Ene",
-  "nino12_extraordinario": 75,
-  "nino12_fuerte": 23,
-  "nino34_muy_fuerte": 80
+  "nino12_extraordinario": 77,
+  "nino12_fuerte": 22,
+  "nino34_muy_fuerte": 78
  },
  {
   "mes": "2027-02",
   "etiqueta": "Feb",
-  "nino12_extraordinario": 50,
-  "nino12_fuerte": 45,
-  "nino34_muy_fuerte": 49
+  "nino12_extraordinario": 52,
+  "nino12_fuerte": 43,
+  "nino34_muy_fuerte": 47
  },
  {
   "mes": "2027-03",
   "etiqueta": "Mar",
-  "nino12_extraordinario": 41,
-  "nino12_fuerte": 43,
-  "nino34_muy_fuerte": 25
+  "nino12_extraordinario": 40,
+  "nino12_fuerte": 44,
+  "nino34_muy_fuerte": 24
  },
  {
   "mes": "2027-04",
   "etiqueta": "Abr",
-  "nino12_extraordinario": 23,
-  "nino12_fuerte": 28,
-  "nino34_muy_fuerte": 6
+  "nino12_extraordinario": 28,
+  "nino12_fuerte": 32,
+  "nino34_muy_fuerte": 5
  },
  {
   "mes": "2027-05",
   "etiqueta": "May",
-  "nino12_extraordinario": 16,
-  "nino12_fuerte": 22,
+  "nino12_extraordinario": 25,
+  "nino12_fuerte": 30,
   "nino34_muy_fuerte": 1
  },
  {
   "mes": "2027-06",
   "etiqueta": "Jun",
-  "nino12_extraordinario": 8,
+  "nino12_extraordinario": 15,
   "nino12_fuerte": 20,
   "nino34_muy_fuerte": 0
  },
  {
   "mes": "2027-07",
   "etiqueta": "Jul",
-  "nino12_extraordinario": 1,
-  "nino12_fuerte": 10,
+  "nino12_extraordinario": 5,
+  "nino12_fuerte": 15,
   "nino34_muy_fuerte": 0
  }
 ]
