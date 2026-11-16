@@ -47,5 +47,5 @@
   host.innerHTML =
     '<div class="nmo-top"><span class="nmo-tag">' + esc(f0.calidad || 'Estimación') + '</span><span class="nmo-kicker">Capas de población expuesta</span></div>' +
     '<svg viewBox="0 0 420 380" role="img" aria-label="' + esc('Población expuesta por nivel de pobreza. ' + etiqueta) + '"><defs>' + defs + '</defs>' + s + '</svg>' +
-    '<p class="nmo-pie">Cada capa contiene a la siguiente. El área es proporcional a las personas. Fuente: ' + esc(String(f0.fuente || '').split(',')[0]) + (fecha ? ', ' + fecha : '') + '.</p>';
+    '<p class="nmo-pie">Las capas no se suman: cada una incluye a la siguiente (los pobres están dentro de «pobres o vulnerables», y ambos dentro de las personas expuestas). El área es proporcional a las personas. Fuente: ' + esc(String(f0.fuente || '').split(',')[0]) + (fecha ? ', ' + fecha : '') + '.</p>';
 })();
