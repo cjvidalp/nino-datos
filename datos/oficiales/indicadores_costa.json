@@ -2,51 +2,51 @@
  {
   "id": "tmax_costa",
   "indicador": "Anomalía de temperatura máxima, litoral (promedio)",
-  "valor": 4.9,
+  "valor": 5.1,
   "unidad": "°C",
-  "periodo": "oct 2026"
+  "periodo": "1-10 nov 2026"
  },
  {
   "id": "tmin_costa",
   "indicador": "Anomalía de temperatura mínima, litoral (promedio)",
-  "valor": 5.5,
+  "valor": 5.9,
   "unidad": "°C",
-  "periodo": "oct 2026"
+  "periodo": "1-10 nov 2026"
  },
  {
   "id": "tmax_centro",
-  "indicador": "Anomalía de temperatura máxima, costa centro",
-  "valor": 6.9,
+  "indicador": "Mayor anomalía de temperatura máxima, costa centro (Huarmey, Áncash)",
+  "valor": 7.1,
   "unidad": "°C",
-  "periodo": "oct 2026"
+  "periodo": "1-10 nov 2026"
  },
  {
   "id": "atsm_paita",
-  "indicador": "Anomalía máxima del mar en estaciones del litoral norte",
-  "valor": 10,
+  "indicador": "Anomalía mensual del mar en estación costera de Chicama (litoral norte)",
+  "valor": 8.9,
   "unidad": "°C",
-  "periodo": "oct 2026"
+  "periodo": "nov 2026, parcial al 11 nov"
  },
  {
   "id": "nivel_mar",
-  "indicador": "Anomalía del nivel del mar, del ecuador a 12°S (franja 60 mn), superior a",
-  "valor": 40,
+  "indicador": "Anomalía del nivel del mar, del ecuador a 7°S (franja 60 mn), superior a",
+  "valor": 50,
   "unidad": "cm",
-  "periodo": "oct 2026"
+  "periodo": "fines oct a inicios nov 2026"
  },
  {
   "id": "ola_calor",
   "indicador": "Franja de 150 mn entre 4°S y 18,5°S en ola de calor marina",
   "valor": 100,
   "unidad": "%",
-  "periodo": "25 oct 2026"
+  "periodo": "8 nov 2026"
  },
  {
   "id": "embalses",
   "indicador": "Capacidad hidráulica nacional almacenada",
-  "valor": 53.3,
+  "valor": 51.1,
   "unidad": "%",
-  "periodo": "28 oct 2026"
+  "periodo": "11 nov 2026"
  },
  {
   "id": "record_tumbes",

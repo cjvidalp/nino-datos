@@ -1,42 +1,42 @@
 [
  {
-  "rio": "Chira (Pte. Sullana)",
-  "departamento": "Piura",
-  "anomalia_pct": 295.28
- },
- {
   "rio": "Tumbes (El Tigre)",
   "departamento": "Tumbes",
-  "anomalia_pct": 236.47
+  "anomalia_pct": 1943.0
  },
  {
-  "rio": "Pisco",
-  "departamento": "Ica",
-  "anomalia_pct": 166.99
- },
- {
-  "rio": "La Leche (Puchaca)",
-  "departamento": "Lambayeque",
-  "anomalia_pct": 158.31
+  "rio": "Chira (Pte. Sullana)",
+  "departamento": "Piura",
+  "anomalia_pct": 1622.0
  },
  {
   "rio": "Motupe (Marripón)",
   "departamento": "Lambayeque",
-  "anomalia_pct": 106.91
+  "anomalia_pct": 218.81
  },
  {
-  "rio": "Ramis",
-  "departamento": "Puno",
-  "anomalia_pct": -53.43
+  "rio": "La Leche (Puchaca)",
+  "departamento": "Lambayeque",
+  "anomalia_pct": 114.22
+ },
+ {
+  "rio": "Pisco",
+  "departamento": "Ica",
+  "anomalia_pct": 57.26
  },
  {
   "rio": "Crisnejas",
   "departamento": "Cajamarca",
-  "anomalia_pct": -43.35
+  "anomalia_pct": -23.17
  },
  {
   "rio": "Nanay",
   "departamento": "Loreto",
-  "anomalia_pct": -43.03
+  "anomalia_pct": -47.32
+ },
+ {
+  "rio": "Ramis",
+  "departamento": "Puno",
+  "anomalia_pct": -66.51
  }
 ]
