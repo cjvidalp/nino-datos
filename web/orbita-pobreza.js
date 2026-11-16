@@ -10,7 +10,7 @@
   var filas = (datos.pobreza_expuesta || []).slice().sort(function (a, b) { return b.valor - a.valor; });
   if (filas.length < 2) return;
   host.dataset.listo = '1';
-  var M = function (v) { return v >= 1e6 ? (v / 1e6).toLocaleString('es-PE', { maximumFractionDigits: 1 }) + ' M' : Math.round(v / 1e3).toLocaleString('es-PE') + ' mil'; };
+  var M = function (v) { return v >= 1e6 ? (v / 1e6).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + ' M' : Math.round(v / 1e3).toLocaleString('es-ES') + ' mil'; };
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
   var pal = [['#fde68a', '#f59e0b', '#b45309'], ['#fdba74', '#f97316', '#c2410c'], ['#fbcfe8', '#ec4899', '#9d174d']];
   var cx = 210, cy = 200, R = 150, vmax = filas[0].valor;
@@ -51,7 +51,7 @@
   s += '<text class="nmo-sub" x="' + cx + '" y="' + (cy + 30) + '" text-anchor="middle">' + esc(nucleo.grupo.toUpperCase()) + '</text>';
   var etiqueta = filas.map(function (f) { return f.grupo + ': ' + M(f.valor) + ' personas'; }).join('; ');
   var f0 = filas[0];
-  var fecha = f0.fecha ? new Date(f0.fecha + 'T12:00:00').toLocaleDateString('es-PE', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+  var fecha = f0.fecha ? new Date(f0.fecha + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
   host.innerHTML =
     '<div class="nmo-top"><span class="nmo-tag">' + esc(f0.calidad || 'Estimación') + '</span><span class="nmo-kicker">Capas de población expuesta</span></div>' +
     '<svg viewBox="0 0 420 400" role="img" aria-label="' + esc('Población expuesta por nivel de pobreza. ' + etiqueta) + '"><defs>' + defs + '</defs>' + s + '</svg>' +
