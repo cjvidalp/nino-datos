@@ -1,21 +1,21 @@
 {
  "lluvia": {
   "archivo": "lluvia_pronostico.json",
-  "dato_al": "2026-11-19T18:00:00",
-  "edad_h": 5.1,
+  "dato_al": "2026-11-20T06:00:00",
+  "edad_h": 7.1,
   "estado": "VIGENTE"
  },
  "mar": {
   "archivo": "mar_anomalia.json",
   "dato_al": "2026-11-16T00:00:00",
-  "edad_h": 95.1,
-  "estado": "VIGENTE"
+  "edad_h": 109.1,
+  "estado": "VENCIDO"
  },
  "cpc": {
   "archivo": "noaa_semanal.json",
   "dato_al": "2026-11-16T00:00:00",
-  "edad_h": 95.1,
+  "edad_h": 109.1,
   "estado": "VIGENTE"
  },
- "generado": "2026-11-19 23:06 UTC"
+ "generado": "2026-11-20 13:06 UTC"
 }
