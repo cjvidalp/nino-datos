@@ -1,227 +1,227 @@
 [
 {
 "id": "TUMBES",
-"media_mm": 131.8,
-"max_mm": 172.4,
-"dia_max_mm": 57.1,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 156.4,
+"max_mm": 212.5,
+"dia_max_mm": 97.1,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "AMAZONAS",
-"media_mm": 88.5,
-"max_mm": 137.9,
-"dia_max_mm": 51.7,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
-},
-{
-"id": "SAN MARTIN",
-"media_mm": 84.5,
-"max_mm": 184.8,
-"dia_max_mm": 97.2,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
-},
-{
-"id": "LORETO",
-"media_mm": 66.9,
-"max_mm": 232.9,
-"dia_max_mm": 189.7,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
-},
-{
-"id": "APURIMAC",
-"media_mm": 63.3,
-"max_mm": 107.8,
-"dia_max_mm": 34.1,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
-},
-{
-"id": "CAJAMARCA",
-"media_mm": 63.3,
-"max_mm": 139.0,
-"dia_max_mm": 49.4,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 88.3,
+"max_mm": 151.4,
+"dia_max_mm": 126.1,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "HUANCAVELICA",
-"media_mm": 63.1,
-"max_mm": 111.6,
-"dia_max_mm": 63.6,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 75.1,
+"max_mm": 124.9,
+"dia_max_mm": 44.4,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
-"id": "PASCO",
-"media_mm": 56.5,
-"max_mm": 86.9,
-"dia_max_mm": 32.5,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"id": "CAJAMARCA",
+"media_mm": 74.5,
+"max_mm": 188.3,
+"dia_max_mm": 59.9,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "PIURA",
-"media_mm": 56.5,
-"max_mm": 153.5,
-"dia_max_mm": 84.6,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
-},
-{
-"id": "HUANUCO",
-"media_mm": 56.3,
-"max_mm": 138.3,
-"dia_max_mm": 61.2,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 70.8,
+"max_mm": 262.3,
+"dia_max_mm": 101.9,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "CUSCO",
-"media_mm": 53.7,
-"max_mm": 135.7,
-"dia_max_mm": 77.6,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 66.7,
+"max_mm": 153.6,
+"dia_max_mm": 50.8,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
+},
+{
+"id": "APURIMAC",
+"media_mm": 60.3,
+"max_mm": 95.6,
+"dia_max_mm": 35.6,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
+},
+{
+"id": "PASCO",
+"media_mm": 59.5,
+"max_mm": 98.8,
+"dia_max_mm": 26.2,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
+},
+{
+"id": "SAN MARTIN",
+"media_mm": 59.4,
+"max_mm": 140.0,
+"dia_max_mm": 70.2,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
+},
+{
+"id": "LORETO",
+"media_mm": 58.6,
+"max_mm": 201.3,
+"dia_max_mm": 168.8,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "AYACUCHO",
-"media_mm": 53.0,
-"max_mm": 109.0,
-"dia_max_mm": 48.8,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 55.9,
+"max_mm": 134.1,
+"dia_max_mm": 46.8,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
+},
+{
+"id": "HUANUCO",
+"media_mm": 53.6,
+"max_mm": 114.4,
+"dia_max_mm": 38.1,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "JUNIN",
-"media_mm": 49.7,
-"max_mm": 98.7,
-"dia_max_mm": 38.2,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
-},
-{
-"id": "UCAYALI",
-"media_mm": 48.4,
-"max_mm": 158.8,
-"dia_max_mm": 79.1,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
-},
-{
-"id": "LIMA",
-"media_mm": 40.2,
-"max_mm": 118.2,
-"dia_max_mm": 41.3,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 53.2,
+"max_mm": 126.3,
+"dia_max_mm": 46.3,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "PUNO",
-"media_mm": 39.3,
-"max_mm": 87.7,
-"dia_max_mm": 40.1,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 52.7,
+"max_mm": 116.5,
+"dia_max_mm": 44.2,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
-"id": "MADRE DE DIOS",
-"media_mm": 38.8,
-"max_mm": 118.6,
-"dia_max_mm": 99.7,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"id": "LIMA",
+"media_mm": 38.5,
+"max_mm": 123.9,
+"dia_max_mm": 46.4,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
+},
+{
+"id": "UCAYALI",
+"media_mm": 36.8,
+"max_mm": 82.8,
+"dia_max_mm": 67.5,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "LA LIBERTAD",
-"media_mm": 36.6,
-"max_mm": 101.6,
-"dia_max_mm": 42.2,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 33.8,
+"max_mm": 119.2,
+"dia_max_mm": 39.4,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
+},
+{
+"id": "MADRE DE DIOS",
+"media_mm": 33.1,
+"max_mm": 128.5,
+"dia_max_mm": 55.4,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "ANCASH",
-"media_mm": 28.6,
-"max_mm": 60.4,
-"dia_max_mm": 28.5,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 31.1,
+"max_mm": 77.6,
+"dia_max_mm": 28.9,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "AREQUIPA",
-"media_mm": 22.0,
-"max_mm": 93.1,
-"dia_max_mm": 29.6,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 22.5,
+"max_mm": 103.6,
+"dia_max_mm": 29.8,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "LAMBAYEQUE",
-"media_mm": 16.5,
-"max_mm": 48.9,
-"dia_max_mm": 18.4,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 18.7,
+"max_mm": 65.2,
+"dia_max_mm": 21.2,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "MOQUEGUA",
-"media_mm": 12.7,
-"max_mm": 43.1,
-"dia_max_mm": 32.0,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 10.5,
+"max_mm": 52.3,
+"dia_max_mm": 22.2,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "TACNA",
-"media_mm": 5.6,
-"max_mm": 25.9,
-"dia_max_mm": 17.1,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 5.2,
+"max_mm": 24.5,
+"dia_max_mm": 11.9,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "ICA",
-"media_mm": 4.6,
-"max_mm": 42.9,
-"dia_max_mm": 15.1,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"media_mm": 3.1,
+"max_mm": 32.0,
+"dia_max_mm": 13.3,
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 },
 {
 "id": "CALLAO",
 "media_mm": 0.0,
 "max_mm": 0.0,
 "dia_max_mm": 0.0,
-"corrida": "2026-11-21 12 UTC",
-"desde": "2026-11-21",
-"hasta": "2026-11-28"
+"corrida": "2026-11-22 06 UTC",
+"desde": "2026-11-22",
+"hasta": "2026-11-29"
 }
 ]
