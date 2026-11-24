@@ -698,5 +698,12 @@
   "mes": "oct año 0",
   "fecha": "2026-10",
   "anom": 5.25
+ },
+ {
+  "evento": "2026-27",
+  "idx": 10,
+  "mes": "nov año 0 (parcial: promedio de 3 semanas al 18 nov, NOAA CPC semanal)",
+  "fecha": "2026-11",
+  "anom": 5.57
  }
 ]
