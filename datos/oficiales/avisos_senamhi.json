@@ -9,8 +9,8 @@
   "horas": 85,
   "nivel": "ROJO",
   "nivel_n": 3,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AMAZONAS;ANCASH;APURIMAC;AREQUIPA;AYACUCHO;CAJAMARCA;CUSCO;HUANCAVELICA;HUANUCO;ICA;JUNIN;LA LIBERTAD;LAMBAYEQUE;LIMA;MOQUEGUA;PASCO;PIURA;PUNO;SAN MARTIN;TACNA;TUMBES",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 483,
@@ -22,8 +22,8 @@
   "horas": 71,
   "nivel": "AMARILLO",
   "nivel_n": 1,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "ANCASH;AREQUIPA;ICA;LA LIBERTAD;LIMA;MOQUEGUA;TACNA",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 482,
@@ -35,8 +35,8 @@
   "horas": 71,
   "nivel": "AMARILLO",
   "nivel_n": 1,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AREQUIPA;ICA;LIMA;MOQUEGUA;TACNA",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 481,
@@ -48,8 +48,8 @@
   "horas": 71,
   "nivel": "ROJO",
   "nivel_n": 3,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AMAZONAS;ANCASH;APURIMAC;AREQUIPA;AYACUCHO;CAJAMARCA;CUSCO;HUANCAVELICA;HUANUCO;ICA;JUNIN;LA LIBERTAD;LAMBAYEQUE;LIMA;MADRE DE DIOS;MOQUEGUA;PASCO;PIURA;PUNO;SAN MARTIN;TACNA;TUMBES",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 480,
@@ -61,8 +61,8 @@
   "horas": 71,
   "nivel": "ROJO",
   "nivel_n": 3,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AMAZONAS;AYACUCHO;CAJAMARCA;CUSCO;HUANUCO;JUNIN;LORETO;MADRE DE DIOS;PASCO;PUNO;SAN MARTIN;UCAYALI",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 479,
@@ -74,8 +74,8 @@
   "horas": 71,
   "nivel": "AMARILLO",
   "nivel_n": 1,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AREQUIPA;ICA;LIMA",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 478,
@@ -87,8 +87,8 @@
   "horas": 71,
   "nivel": "AMARILLO",
   "nivel_n": 1,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AREQUIPA;LIMA;MOQUEGUA;TACNA",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 477,
@@ -100,8 +100,8 @@
   "horas": 71,
   "nivel": "ROJO",
   "nivel_n": 3,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "ANCASH;APURIMAC;AREQUIPA;AYACUCHO;CAJAMARCA;CUSCO;HUANCAVELICA;HUANUCO;ICA;LA LIBERTAD;LAMBAYEQUE;LIMA;PIURA;SAN MARTIN;TUMBES",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 476,
@@ -113,8 +113,8 @@
   "horas": 95,
   "nivel": "ROJO",
   "nivel_n": 3,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AMAZONAS;ANCASH;APURIMAC;AREQUIPA;AYACUCHO;CAJAMARCA;CUSCO;HUANCAVELICA;HUANUCO;ICA;JUNIN;LA LIBERTAD;LAMBAYEQUE;LIMA;MOQUEGUA;PASCO;PIURA;PUNO;SAN MARTIN;TACNA;TUMBES",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 475,
@@ -126,8 +126,8 @@
   "horas": 61,
   "nivel": "AMARILLO",
   "nivel_n": 1,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "ANCASH;AREQUIPA;ICA;LIMA",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 474,
@@ -139,8 +139,8 @@
   "horas": 71,
   "nivel": "NARANJA",
   "nivel_n": 2,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AMAZONAS;CAJAMARCA;CUSCO;HUANUCO;JUNIN;LORETO;MADRE DE DIOS;PASCO;PUNO;SAN MARTIN;UCAYALI",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 473,
@@ -152,8 +152,8 @@
   "horas": 71,
   "nivel": "AMARILLO",
   "nivel_n": 1,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "AREQUIPA;ICA;LIMA;MOQUEGUA;TACNA",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 472,
@@ -165,8 +165,8 @@
   "horas": 71,
   "nivel": "NARANJA",
   "nivel_n": 2,
-  "departamentos": "",
-  "deps_fuente": "Sin asignar: la ficha SENAMHI no lista departamentos y el mapa no se pudo leer (tabla oficial consultada el 24 nov 2026)"
+  "departamentos": "ANCASH;APURIMAC;AREQUIPA;AYACUCHO;CAJAMARCA;CUSCO;HUANCAVELICA;HUANUCO;ICA;JUNIN;LA LIBERTAD;LAMBAYEQUE;LIMA;PASCO;PIURA;TUMBES",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 24 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
  },
  {
   "numero": 471,
