@@ -40,7 +40,7 @@ def extraer(fecha):
 
 def main():
     fechas = sys.argv[1:] or [(dt.date.today() - dt.timedelta(days=d)).strftime("%Y%m%d")
-                              for d in range(1, 7)]
+                              for d in range(1, 11)]  # 10 días: aguanta retrasos de NOAA de hasta 10 días
     actual = json.load(open(SALIDA)) if os.path.exists(SALIDA) else []
     por_dia = {}
     for r in actual:
