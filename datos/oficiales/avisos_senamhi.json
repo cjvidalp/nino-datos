@@ -1,5 +1,18 @@
 [
  {
+  "numero": 486,
+  "titulo": "Precipitaciones en la costa norte y sierra",
+  "tipo": "lluvia",
+  "emision": "2026-11-25",
+  "inicio": "2026-11-27",
+  "fin": "2026-11-29",
+  "horas": 71,
+  "nivel": "ROJO",
+  "nivel_n": 3,
+  "departamentos": "AMAZONAS;ANCASH;APURIMAC;AREQUIPA;AYACUCHO;CAJAMARCA;CUSCO;HUANCAVELICA;HUANUCO;ICA;JUNIN;LA LIBERTAD;LAMBAYEQUE;LIMA;MADRE DE DIOS;PASCO;PIURA;PUNO;SAN MARTIN;TUMBES",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 25 nov 2026). Lima incluye Callao: el SENAMHI los agrupa"
+ },
+ {
   "numero": 485,
   "titulo": "Incremento de temperatura nocturna en la costa y sierra",
   "tipo": "calor",
