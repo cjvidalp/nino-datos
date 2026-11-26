@@ -1,5 +1,18 @@
 [
  {
+  "numero": 487,
+  "titulo": "Llovizna en la costa sur",
+  "tipo": "lluvia",
+  "emision": "2026-11-26",
+  "inicio": "2026-11-28",
+  "fin": "2026-11-30",
+  "horas": 71,
+  "nivel": "ROJO",
+  "nivel_n": 3,
+  "departamentos": "AREQUIPA;MOQUEGUA;TACNA",
+  "deps_fuente": "SENAMHI: páginas de avisos por departamento (consultadas el 26 nov 2026)"
+ },
+ {
   "numero": 486,
   "titulo": "Precipitaciones en la costa norte y sierra",
   "tipo": "lluvia",
